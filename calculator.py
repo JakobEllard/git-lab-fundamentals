@@ -9,6 +9,8 @@ def divide(a, b):
         raise ValueError("Cannot divide by zero")
     return a / b
 if __name__ == "__main__":
-    print("=== SUPER CALCULATOR ===")
+
+    print("=== CALCULATOR V2 ===")
+
     print(f"Sum (a + b): {add(2, 3)}")
     print(subtract(5, 2))
