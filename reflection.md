@@ -11,3 +11,18 @@ HEAD is the current main branch, branch name is the one you just tried to merge.
    
 6. How does the git log --graph shape from Part C differ from the one in Part B? Why?
    It has a branch for the merge conflict in part C
+
+
+
+
+1. Why is 'Squash and Merge' preferable over standard merge commits for small feature branches in team
+projects?
+Because it combines all branch commits into a SINGLE clean commit applied to main.
+2. Describe the difference between 'Add single comment' and 'Start a review' on GitHub. Why is batching
+important?
+Comments are submitted one at a time, a review avoids spamming by sending as a batch.
+3. How do Branch Protection Rules prevent accidental production breakage?
+They force at least one other team member to review the commit before it is added to the main branch.
+4. When a remote conflict occurs in a PR, why is it better to merge origin/main into your feature branch
+locally rather than forcing a push?
+Resolving the issue locally, as opposed to forcing a push will keep others branches up to date and allow the push to main to go in one larger push.
